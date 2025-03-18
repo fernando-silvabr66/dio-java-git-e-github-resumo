@@ -14,6 +14,5 @@ Opções para criação de repositório e uso do Git:
    "cat config" -> no diretório .git, exibe as informações do git para o diretório em uso.
    "git clone <URL> <nome diretório local> -> clona um repositório do Github para o diretório em uso (nomeando o
    diretório com o nome do repo remoto ou com o nome do diretório informado no comando).
-   "git clone <URL> --branch <nome da branch no repo remoto> --single-brnch -> clona um repositório do Github para o diretório em uso (apenas a
-   branch informada)
+   "git clone <URL> --branch <nome da branch no repo remoto> --single-brnch -> clona um repositório do Github para o diretório em uso (apenas a branch informada)
 
