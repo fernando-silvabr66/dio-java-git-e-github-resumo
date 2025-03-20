@@ -18,4 +18,5 @@ Criando um repositório local:
 "git remote add origin <URL> -> associa o diretório local ao repositório remoto apontado no comando.
 "cat config" -> no diretório .git, exibe as informações do git para o diretório em uso.
 "git clone <URL> <nome diretório local> -> clona um repositório do Github para o diretório em uso (nomeando o diretório com o nome do repo remoto ou com o nome do diretório informado no comando).
-"git clone <URL> --branch <nome da branch no repo remoto> --single-brnch -> clona um repositório do Github para o diretório em uso (apenas a branch informada)
+"git clone <URL> --branch <nome da branch no repo remoto> --single-branch -> clona um repositório do Github para o diretório em uso (apenas a branch informada)
+"git log" -> exibe infrmações sobre os commits do repositório.
