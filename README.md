@@ -36,3 +36,32 @@ Para remover o git criado indevidamente, remover o diretório '.git' -> no linux
 "git restore <nome do arquivo>" -> faz o mesmo que o git reset.
 
 "git reflog" -> exibe as informações de todas as interações realizadas nos commits.
+
+"git checkout -b <nome da nova branch> -> cria novo branch.
+
+"git checkout <nome da branch> -> vai para a branch informada no comando.
+
+"git branch -v" -> mostra todas as branchs para o repositório em que se está trabalhando.
+
+"git merge <nome da branch>" -> mescla a branch informada com a branch principal do repositório.
+
+"git branch -d <nome da branch>" -> exclui a branch informada no comando.
+
+"git fetch origin <nome da branch>' -> baixa as alterações do repositório remoto, sem fazer o merge com o repositório local.
+
+"git diff <nome da branch1> <nome da branch2>" -> exibe as diferenças entre o conteúdo das branchs apontadas no comando. Para atualizar, usar o comando "git merge <nome da branch>".
+
+"git stash" -> 'arquiva' a modificação realizada na branch (permitindo criar nova branch, por exemplo).
+
+"git stash list" -> 'lista' as modificações arquivadas.
+
+"git stash pop" -> traz a modificação arquivada, removendo-a da 'pilha'.
+
+"git stash apply" -> traz a modificação arquivada, mantendo-a na 'pilha' para eventual uso posterior.
+
+"git pull" -> baixa informações do repositório remoto para o repositório local.
+
+"git pull upstream <branch>" -> baixa informações do repositório configurado como upstream (exemplo: quando se faz um fork mas se deseja
+alterações do repositório original).
+
+"git push" -> envia informações do repositório local para o repositório remoto.
