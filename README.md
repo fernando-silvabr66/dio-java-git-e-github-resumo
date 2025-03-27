@@ -24,3 +24,15 @@ Criando um repositório local:
 Para remover o git criado indevidamente, remover o diretório '.git' -> no linux: rm -rf .git
 
 "git commit --amend -m <nova msg> -> altera a msg do último commit
+
+"git reset --soft <hash desejado>" -> retorna o ponteiro do git para o commit informado no <hash>, retornando os arquivos posteriores ao <hash> para a área de preparação (staging area).
+
+"git reset" ou "git reset --mixed <hash>" (comportamento padrão do git reset) -> retorna o ponteiro do git para o commit informado no <hash>, retornando os arquivos posteriores ao <hash> para a área de trabalho (working area).
+
+"git reset" ou "git reset --hard <hash>" (comportamento mais radical do git reset) -> retorna o ponteiro do git para o commit informado no <hash>, mas apaga os arquivos posteriores ao <hash>.
+
+"git reset <nome do arquivo>" -> retorna o arquivo informado para a área de trabalho.
+
+"git restore <nome do arquivo>" -> faz o mesmo que o git reset.
+
+"git reflog" -> exibe as informações de todas as interações realizadas nos commits.
