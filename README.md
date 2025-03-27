@@ -20,3 +20,5 @@ Criando um repositório local:
 "git clone <URL> <nome diretório local> -> clona um repositório do Github para o diretório em uso (nomeando o diretório com o nome do repo remoto ou com o nome do diretório informado no comando).
 "git clone <URL> --branch <nome da branch no repo remoto> --single-branch -> clona um repositório do Github para o diretório em uso (apenas a branch informada)
 "git log" -> exibe informações sobre os commits do repositório.
+
+Para remover o git criado indevidamente, remover o diretório '.git' -> no linux: rm -rf .git
