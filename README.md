@@ -22,3 +22,5 @@ Criando um repositório local:
 "git log" -> exibe informações sobre os commits do repositório.
 
 Para remover o git criado indevidamente, remover o diretório '.git' -> no linux: rm -rf .git
+
+"git commit --amend -m <nova msg> -> altera a msg do último commit
